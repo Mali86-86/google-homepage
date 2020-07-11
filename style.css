@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    height:50vh;
+    background: white;
+}
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 15px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.header{
+    overflow: auto;
+}
+.header .left{
+    float: left;
+    width: 45vw;
+    padding: 23px;
+}
+.header .right{
+    float: right;
+    width: 45vw;
+    overflow: auto;
+    padding: 23px;
+}
+.right a, .right button{
+    float: right;
+}
+.right button{
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    padding: 5px 8px;
+}
+.main .image-section, .main .form, .main .button-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.main .form{
+    margin-top: 20px;
+}
+.main .form input{
+    border: 1px solid #cdcdcd;
+    border-radius: 50px;
+    padding: 15px;
+    width: 38vw;
+}
+.main .button-section{
+    margin-top: 20px;
+}
+.main .button-section button{
+    margin-right: 15px;
+    padding: 7px 10px;
+    border: none;
+    /* background-color: #efefefef;   */
+}
+footer{
+    overflow: hidden;
+    position: absolute;
+    bottom: 0px;
+}
+.footer .left{
+    float: left;
+    margin: 0px;
+    color:Black;
+    
+}
+.footer .right{
+    margin-left: 20%;
+    margin: 0px;
+    color:Black;
+   
+}
